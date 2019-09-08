@@ -29,7 +29,7 @@ e.g. with `curl https://wttr.in/paris`.
 Launch the `opensnoop` tool. Check that it works by opening files in another
 terminal.
 
-    # ./examples/opensnoop.py
+    # ./tools/opensnoop.py
 
 While `opensnoop` is running, list BPF programs on the system.
 
