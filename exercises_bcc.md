@@ -75,7 +75,7 @@ See the script `tests/python/test_tools_memleak.py`. Compile a program with
 memory leaks and try to debug it with `memleak` and launch it.
 
     $ cd tests/python
-    $ clang -g -O0 -o test_tools_memleak_leaker_app test_tools_memleak_leaker_app.c
+    $ gcc -g -O0 -o test_tools_memleak_leaker_app test_tools_memleak_leaker_app.c
     $ ./test_tools_memleak_leaker_app malloc
 
 This sample application waits for the user to hit `Enter` before it runs, so
